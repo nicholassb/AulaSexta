@@ -9,6 +9,7 @@
 //);
 
 	require_once('models/clientesModel.php');
+	echo "hello";
 	$client = new clientesModel();
 			$client -> listCliente();
 			$result = $client -> getConsulta();
